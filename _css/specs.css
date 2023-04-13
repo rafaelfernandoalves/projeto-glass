@@ -1,0 +1,19 @@
+@charset "UTF-8";
+#conteudo {
+    width: 1000px;
+    margin: auto;
+}
+#frame_specs {
+    width: 390px;
+    height: 275px;
+    border: none;
+    overflow-y: scroll;
+}
+#frame_specs::-webkit-scrollbar{
+    display: none;
+}
+
+.corpo_specs hgroup h3{
+ font-size: 15px;
+ font-family: 'Montserrat', sans-serif ;
+}

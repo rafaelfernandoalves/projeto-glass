@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+.fotolg{
+    box-shadow: 10px 10px  7px grey;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+.fotolg img {
+    width: 100%;
+    height: 100%;
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+
+}
+.fotolg figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 0.5S;
+    text-align: center;
+}
+
+.fotolg figcaption:hover {
+    opacity: 100;
+}
+body {
+    background-color: #E3DFFD;
+    font-family: 'Roboto Mono', monospace;
+}
+.interface{
+    width: 900px;
+    background-color: #ECF2FF;
+    margin: -20px auto 10px auto;
+    box-shadow: 0px 0px 10px grey;
+    padding: 10px;
+    
+}
+#cabeçalho #imagem {
+    position: absolute;
+    top: 70px;
+    left: 775px;
+}
+#cabeçalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 90px;
+}
+#cabeçalho h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #606060;
+    text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, .4) ;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+#cabeçalho h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #888888;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 0px;
+}
+/*Formataçao do menu*/
+.menu {
+    display: block;
+}
+.menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 300px;
+}
+.menu li {
+    display: inline-block;
+    background-color: #E5D1FA;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.menu h1 {
+    display: none;
+}
+.menu ul :hover {
+    background-color: #FFF4D2;
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: black;
+
+}
+.corpo {
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+.lateral {
+    display: block;
+    width: 330px;
+    float: right;
+}
+.rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+
+}
+.rodape p {
+    text-align: center;
+}
+.rodape a {
+    text-decoration: none;
+}
+.tabela_spc {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tabela_spc td {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+}
+.tabela_spc .nm {
+    background-color: #37306B;
+    color: white;
+    font-weight: bold;
+}
+.tabela_spc .dt {
+    background-color: #9E4784;
+    color: white;
+}
+.tabela_spc caption {
+    font-weight: bold;
+    font-size: 20px;
+    color: #37306B;
+}
+.tabela_spc span {
+    display: block;
+    float: right;
+    font-size: 15px;
+    margin-top: 8px;
+    color: #1d1a38;
+    font-family:  'Rajdhani', sans-serif;
+}
+.primeira_noticia h2 {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #E5D1FA;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+.cabeçalho_two h3 {
+    font-size: 15px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.cabeçalho_two h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.cabeçalho_two span {
+    text-align: right;
+    font-size: 12px;
+}
+.lateral h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+}
+.lateral h2 {
+    background-color:#F5C6EC ;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+} 
+.lateral {
+    background-color: #FFEAEA;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .7);
+}

@@ -1,0 +1,89 @@
+#album-fotos {
+    margin: 0 auto;
+    padding: 50px;
+    width: 700px;
+    overflow: hidden;
+    list-style: none;
+
+}
+
+.fts {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid rgb(187, 186, 186) ;
+    background-color: white;
+    -webkit-transition: all .3s ease;
+    
+}
+#ft01 {
+    background: url('../_imagens/galeria-01.jpg')no-repeat;
+    background-position: 50%, 50%;
+    background-size: 400px 400px;
+    background-color: #ffff;
+}
+#ft02 {
+    background: url('../_imagens/galeria-02.jpg')no-repeat;
+    background-position: 50%, 50%;
+    background-size: 400px 400px;
+    background-color: #ffff;
+}#ft03 {
+    background: url('../_imagens/galeria-03.jpg')no-repeat;
+    background-position: 50%, 50%;
+    background-size: 400px 400px;
+    background-color: #ffff;
+}#ft04 {
+    background: url('../_imagens/galeria-04.jpg')no-repeat;
+    background-position: 50%, 50%;
+    background-size: 400px 400px;
+    background-color: #ffff;
+}#ft05 {
+    background: url('../_imagens/galeria-05.jpg')no-repeat;
+    background-position: 50%, 50%;
+    background-size: 400px 400px;
+    background-color: #ffff;
+}#ft06 {
+    background: url('../_imagens/galeria-06.jpg')no-repeat;
+    background-position: 50%, 50%;
+    background-size: 400px 400px;
+    background-color: #ffff;
+}
+.fts span {
+    opacity:0;
+    color: #ffff;
+    background-color: rgba(0, 0, 0, .5);
+    line-height: 350px;
+    font-size: 8pt;
+    padding: 5px;
+}
+.fts:hover span {
+    opacity: 100;
+}
+#ft01:hover {
+    background-position: 0 ,0;
+    background-size: 200px 200px;
+}
+#ft02:hover {
+    background-position: 0 ,0;
+    background-size: 200px 200px;
+}
+#ft03:hover {
+    background-position: 0 ,0;
+    background-size: 200px 200px;
+}
+#ft04:hover {
+    background-position: 0 ,0;
+    background-size: 200px 200px;
+}
+#ft05:hover {
+    background-position: 0 ,0;
+    background-size: 200px 200px;
+}
+#ft06:hover {
+    background-position: 0 ,0;
+    background-size: 200px 200px;
+}
+.fts:hover {
+    -webkit-transform: scale(1.5);
+}

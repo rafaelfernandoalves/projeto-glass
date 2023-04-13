@@ -1,0 +1,12 @@
+form {
+    width: 500px;
+    margin: auto;
+}
+input {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+}
+input:hover , textarea:hover {
+    background-color: #dddd;
+}
